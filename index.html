@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone 3 Cart</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+<body class="bg-gray-900 flex justify-center items-center min-h-screen">
+    <div class="flex flex-col md:flex-row gap-8 p-6">
+        
+        <!-- Left Card -->
+        <div class="bg-black p-6 rounded-2xl w-72 text-white text-center shadow-lg mt-25">
+            <img src="dev.avif" class="mx-auto rounded-xl mb-4">
+            <h2 class="text-xl font-bold">The only productivity app you need</h2>
+            <button class="mt-4 w-full bg-blue-500 text-white py-2 rounded-lg hover:bg-blue-600">Sign in with Email</button>
+            <div class="flex justify-between mt-3">
+                <button class="bg-gray-800 py-2 px-4 rounded-lg hover:bg-gray-700">Google</button>
+                <button class="bg-gray-800 py-2 px-4 rounded-lg hover:bg-gray-700">Apple ID</button>
+            </div>
+        </div>
+        
+        <!-- Middle Card -->
+        <div class="bg-black p-6 rounded-2xl w-72 text-white text-center shadow-lg mt-12 ml-10">
+            <img src="profile.avif" class="mx-auto rounded-full mb-4">
+            <h2 class="text-xl font-bold">Erlich Bachman</h2>
+            <p class="text-gray-400">erlich@hacker.com</p>
+            <button class="mt-3 bg-blue-500 text-white py-2 px-4 rounded-lg hover:bg-blue-600">Edit Profile</button>
+            
+            <div class="flex items-center justify-between mt-4">
+                <p>Turn on Notifications</p>
+                <input type="checkbox" class="toggle-checkbox hidden">
+                <div class="toggle-label w-10 h-5 flex items-center bg-gray-700 rounded-full p-1 cursor-pointer">
+                    <div class="toggle-dot bg-white w-4 h-4 rounded-full shadow-md transform duration-300"></div>
+                </div>
+            </div>
+            <button class="mt-4 bg-gray-700 py-2 px-4 rounded-lg hover:bg-gray-600">Invite People</button>
+        </div>
+        
+        <!-- Right Card -->
+        <div class="bg-black p-6 rounded-2xl w-72 text-white shadow- ml-10">
+            <div class="flex justify-between items-center">
+                <h2 class="text-lg font-bold">Daily Progress</h2>
+                <input type="text" placeholder="Search" class="bg-gray-800 p-2 rounded-lg text-white text-sm focus:outline-none">
+            </div>
+            <div class="mt-4">
+                <p class="bg-blue-500 text-white py-2 px-4 rounded-lg">All</p>
+                <ul class="mt-3 space-y-3">
+                    <li class="bg-gray-800 p-2 rounded-lg">📘 Read "The Lean Startup"</li>
+                    <li class="bg-green-500 p-2 rounded-lg">🛠 Fix Landing Page</li>
+                    <li class="bg-purple-500 p-2 rounded-lg">🤝 Share Prototype</li>
+                    <li class="bg-yellow-500 p-2 rounded-lg">💬 Reply to Richard</li>
+                    <li class="bg-red-500 p-2 rounded-lg">📑 Finalize Pitch Deck</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
